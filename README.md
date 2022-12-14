@@ -5,7 +5,7 @@ Python scripts for human memory experiment creation.
 Does the following: 
 - Makes stimuli for human experiment
 - Models human memory with beta-VAE 
-- Allows model evaluation and prediction making
+- Allows statistical model evaluation and prediction making
 
 
 Human memory is modelled here as lossy compression with a generative model, beta-VAE. It is an unsupervised learning algorithm, with a given beta parameter as compression rate. The more time has passed, and more forgetting happened as in the case of humans; and the higher the beta value in the model, which puts the emphasis on prior knowledge. The more we forget, the more we put the emphasis on our general knowledge.
