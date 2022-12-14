@@ -9,7 +9,7 @@ Does the following:
 
 ### Overview
 
-Human memory is modeled here as lossy compression with a generative model, beta-VAE. It is an unsupervised learning algorithm, with a given beta parameter as compression rate. The more time has passed, and more forgetting happened as in the case of humans; and the higher the beta value in the model, which puts the emphasis on prior knowledge. The more we forget, the more we put the emphasis on our general knowledge.
+Human memory is modeled here as lossy compression with a generative model, beta-VAE. It is an unsupervised learning algorithm, with a given beta parameter as compression rate. The more time has passed, - and more forgetting happened as in the case of humans -,  the higher the beta value in the model, which puts the emphasis on prior knowledge. The more we forget, the more we put the emphasis on our general knowledge.
 The human experiment is in the domain of language with 3 kinds of stimuli:
 - *original* words: 3rd order english-like words which are shown to the subjects in the human **training phase**
 - *VAE* words: original words are distorted with the beta-VAE, these are shown in the **test phase**
