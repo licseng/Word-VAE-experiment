@@ -7,6 +7,7 @@ Does the following:
 - Models human memory with beta-VAE 
 - Allows statistical model evaluation and prediction making
 
+### Overview
 
 Human memory is modelled here as lossy compression with a generative model, beta-VAE. It is an unsupervised learning algorithm, with a given beta parameter as compression rate. The more time has passed, and more forgetting happened as in the case of humans; and the higher the beta value in the model, which puts the emphasis on prior knowledge. The more we forget, the more we put the emphasis on our general knowledge.
 The human experiment is in the domain of language with 3 kinds of stimuli:
